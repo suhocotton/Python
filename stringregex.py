@@ -3,8 +3,7 @@ import re
   
   
 string = input("Enter a string\n")
-# Creating separate lists using 
-# the re.findall() method.
+
 uppercase_characters = re.findall(r"[A-Z]", string)
 lowercase_characters = re.findall(r"[a-z]", string)
 numerical_characters = re.findall(r"[0-9]", string)
